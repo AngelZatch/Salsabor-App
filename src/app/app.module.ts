@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SalsaborNavComponent } from './components/salsabor-nav/salsabor-nav.component';
+import { SalsaborSideMenuComponent } from './components/salsabor-side-menu/salsabor-side-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SalsaborNavComponent,
+    SalsaborSideMenuComponent
   ],
   imports: [
     BrowserModule,
